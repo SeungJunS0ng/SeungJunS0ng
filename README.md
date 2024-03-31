@@ -18,6 +18,7 @@
 <img src="https://img.shields.io/badge/C%23-512BD4?style=flat&logo=c-sharp&logoColor=white">
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=Next.js&logoColor=white">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white">
 <br/><br/>
 
 <strong>🛠️ Tools 🛠️</strong>
