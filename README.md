@@ -11,6 +11,7 @@
 <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=Spring%20Boot&logoColor=white">
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white">
 <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=Spring%20Security&logoColor=white">
+<img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=JSON%20web%20tokens&logoColor=white">
 <img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white">
 <img src="https://img.shields.io/badge/JPA-59666C?style=flat&logo=Hibernate&logoColor=white">
 <br/>
@@ -20,6 +21,7 @@
 <img src="https://img.shields.io/badge/H2%20Database-1F2937?style=flat&logo=databricks&logoColor=white">
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=Redis&logoColor=white">
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=black">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white">
 <br/><br/>
 
 <strong>🛠️ Tools 🛠️</strong>
