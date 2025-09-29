@@ -1,36 +1,24 @@
 <div align="center">
 
-✨<strong>Tech Stack</strong>✨
+### Tech Stack
 
-<br/>
+**Languages & Frameworks**
 
-<strong>📚Languages & Frameworks📚</strong>
-<br/>
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
 
-<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white">
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=Spring%20Boot&logoColor=white">
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white">
-<img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=Spring%20Security&logoColor=white">
-<br/>
-<img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white">
-<img src="https://img.shields.io/badge/JPA-59666C?style=flat&logo=Hibernate&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white">
-<img src="https://img.shields.io/badge/H2%20Database-1F2937?style=flat&logo=databricks&logoColor=white">
-<br/><br/>
+<img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
 
-<strong>🛠️ Tools 🛠️</strong>
+**Tools**
 
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=IntelliJ%20IDEA&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=Postman&logoColor=white)
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white">
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white">
+<img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=IntelliJ%20IDEA&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
 
-<br/><br/>
+---
 
-<strong>📊 GitHub Stats 📊</strong>
-
-[![SeungJunS0ng's GitHub stats](https://github-readme-stats.vercel.app/api?username=SeungJunS0ng&show_icons=true&theme=radical)](https://github.com/SeungJunS0ng)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SeungJunS0ng&layout=compact&theme=radical)](https://github.com/SeungJunS0ng)
+![SeungJunS0ng's GitHub stats](https://github-readme-stats.vercel.app/api?username=SeungJunS0ng&show_icons=true&theme=default)
 
 </div>
