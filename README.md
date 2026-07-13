@@ -143,12 +143,3 @@ Spring Boot 기반 백엔드, Android 앱, 실시간 데이터 파이프라인�
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://YOUR-VERCEL-APP.vercel.app/api?username=SeungJunS0ng&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://YOUR-VERCEL-APP.vercel.app/api/top-langs/?username=SeungJunS0ng&layout=compact&hide_border=true)
-
-</div>
-
