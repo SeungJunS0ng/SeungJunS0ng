@@ -94,19 +94,19 @@
 
 ---
 
-### MOTMAP - Kakao Map Restaurant Review Service
+### MOTMAP - Kakao Map 기반 프리미엄 맛집 지도 서비스 🍽️
 
-> Kakao Map JavaScript API와 Spring Boot를 연동해 지도에서 맛집 위치를 선택하고, 리뷰·평점·카테고리·위치 기반 검색을 관리할 수 있는 맛집 지도 서비스입니다.
+> **Spring Boot 3.2**와 **카카오맵 API**를 연동하여 지도 기반의 맛집 저장, 실시간 거리 계산, 위치 탐색 및 리뷰를 제공하는 Full-Stack 웹 서비스입니다.
 
-- Restaurant CRUD, 키워드 검색, 카테고리 필터링, 평점순/최신순 정렬 API 구현
-- 고평점 맛집 조회 및 반경 기반 근처 맛집 검색 API 구현
-- Kakao Map 위치 클릭 기반 맛집 등록 폼 및 지도 마커 동기화 구현
-- Fetch API 기반 비동기 REST 통신 및 검색/필터/정렬 결과에 따른 마커 갱신
-- Bean Validation, 커스텀 예외, 구조화된 에러 응답 구성
-- Swagger/OpenAPI 문서화 및 Haversine 공식 기반 `LocationUtils` 구현
+- **인증 & 권한**: Spring Security + JWT 기반 회원가입/로그인 및 작성자 소유권 기반 CRUD 접근 제어 구현
+- **위치 & 지도 UX**: GPS 현재 위치 Pulse 마커, 등록 예정 드래프트 핀, 검색/필터 시 지도 영역 자동 맞춤(`fitBounds`) 구현
+- **실시간 거리 계산**: Haversine 공식을 적용한 내 위치 기준 맛집 거리 배지(`350m`, `1.2km`) 및 거리순 정렬 기능 개발
+- **주소 검색 & 지오코딩**: 카카오 지오코더 연동을 통한 도로명/건물명 직접 주소 검색 및 좌표 자동 매핑 구현
+- **디자인 & 편의성**: Glassmorphism 및 다크/라이트 테마, 커스텀 토스트 알림, XSS 보안 방어 및 실시간 필드 유효성 검사 적용
+- **안정적인 아키텍처**: MySQL 8 연동, Bean Validation, 전역 예외 처리(GlobalExceptionHandler) 및 Swagger UI 문서화
 
 **Tech**  
-`Java`, `Spring Boot`, `Spring Data JPA`, `H2 Database`, `Swagger`, `Thymeleaf`, `JavaScript`, `Kakao Map API`
+`Java 17`, `Spring Boot 3.2`, `Spring Security`, `JWT`, `Spring Data JPA`, `MySQL 8`, `Swagger`, `Thymeleaf`, `JavaScript (ES6+)`, `Kakao Map API`
 
 [Repository](https://github.com/SeungJunS0ng/MOTMAP)
 
