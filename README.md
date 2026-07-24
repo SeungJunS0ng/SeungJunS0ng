@@ -61,9 +61,7 @@
 
 - Spring Boot 기반 장비, 센서, 대시보드, 위젯 도메인 API 구현
 - MQTT metadata/telemetry payload 수신 및 장비/센서 자동 등록 흐름 구현
-- telemetry를 데이터 타입별로 `sensor_numeric_history`, `sensor_string_history`에 분리 저장
 - Redis 최신 snapshot 캐싱 및 WebSocket(STOMP) 실시간 브로드캐스트 구현
-- `equipmentEntityId` 기반 타겟팅으로 중복 장비명 매핑 오류 방지
 - AWS EC2, Docker, PostgreSQL, Redis, MQTT Broker, RabbitMQ 운영 환경 구성
 - GitHub Actions 기반 Gradle test/build, EC2 배포, systemd restart, health check 자동화
 
