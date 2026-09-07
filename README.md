@@ -94,7 +94,7 @@
 
 ---
 
-### MOTMAP - Kakao Map 기반 맛집 지도 서비스 🍽️
+### MOTMAP - Kakao Map 기반 지도 서비스 
 
 > **Spring Boot 3.2**와 **카카오맵 API**를 연동하여 지도 기반의 맛집 저장, 실시간 거리 계산, 위치 탐색 및 리뷰를 제공하는 Full-Stack 웹 서비스입니다.
 
