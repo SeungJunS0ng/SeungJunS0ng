@@ -79,7 +79,7 @@
 
 ### FleaFlea · 플리플리
 
-> 친구끼리 플리마켓을 열고 물건을 거래하는 서비스입니다.
+> 지인끼리 플리마켓을 열어 물건을 거래하고, 거래한 물건 기록을 도감처럼 함께 관리하는 서비스입니다.
 
 - 마켓·도감 변경에 Redisson 분산 락과 DB 잠금을 적용하고 동시 요청 검증
 - 상품 댓글·대댓글 API와 마켓 참여자·작성자 권한 구현
@@ -96,14 +96,13 @@
 
 ### Industrial Equipment Monitoring & MCP AI Automation Dashboard
 
-> SECS/GEM 기반 산업 장비 데이터를 MQTT, Spring Boot, Redis, WebSocket으로 연결한 실시간 통합 모니터링 시스템입니다.  
-> MCP Server를 통해 자연어 명령으로 장비 조회, 센서 조회, 위젯 생성/수정/삭제를 자동화했습니다.
+> 공장 설비의 센서 상태를 대시보드에서 실시간으로 확인하고, 자연어 채팅만으로 장비 조회부터 대시보드 위젯 편집까지 자동화한 관제 시스템입니다.
 
-- Spring Boot 기반 장비, 센서, 대시보드, 위젯 도메인 API 구현
-- MQTT metadata/telemetry payload 수신 및 장비/센서 자동 등록 흐름 구현
-- Redis 최신 snapshot 캐싱 및 WebSocket(STOMP) 실시간 브로드캐스트 구현
-- AWS EC2, Docker, PostgreSQL, Redis, MQTT Broker, RabbitMQ 운영 환경 구성
-- GitHub Actions 기반 Gradle test/build, EC2 배포, systemd restart, health check 자동화
+- SECS/GEM 장비의 센서 데이터를 MQTT로 수집하고, 새 장비·센서가 연결되면 자동 등록되도록 구현
+- Redis로 최신 설비 상태를 캐싱하고 WebSocket(STOMP)으로 대시보드 화면을 실시간 갱신
+- MCP Server를 연동해 자연어 명령으로 장비·센서 조회 및 위젯 생성·수정·삭제 자동화
+- Spring Boot 기반 장비·센서·대시보드·위젯 도메인 API 및 AWS EC2·Docker 운영 환경 구성
+- GitHub Actions 기반 테스트·빌드, EC2 자동 배포, 서비스 재시작 및 헬스체크 자동화
 
 **Tech**  
 `Java`, `Spring Boot`, `Spring Security`, `JWT`, `JPA`, `PostgreSQL`, `Redis`, `MQTT`, `Kafka`, `RabbitMQ`, `WebSocket`, `Docker`, `AWS EC2`, `GitHub Actions`, `MCP`
@@ -116,15 +115,13 @@
 
 ### Battery Insight - SOH Android
 
-> 스마트폰을 보조배터리 진단용 데이터 수집 게이트웨이처럼 활용해 전압, 전류, 온도, SOC를 수집하고 서버 및 AI 진단 결과와 연동하는 Android 기반 IoT 진단 앱입니다.
+> 스마트폰으로 배터리의 전압·전류·온도·잔량 데이터를 수집해 서버로 전송하고, AI가 분석한 배터리 수명(SOH) 결과를 실시간으로 확인하는 Android 진단 앱입니다.
 
-- Jetpack Compose 기반 로그인, 배터리 등록/선택, 실시간 진단 대시보드, SOH 결과 화면 구현
-- ViewModel, Repository 계층 분리로 화면 상태와 API 호출 로직 관리
-- BatteryManager API 기반 SOC, 전압, 전류, 온도, 충전 상태 수집
-- Foreground Service, WorkManager, BootReceiver, BroadcastReceiver로 백그라운드 진단 안정성 보완
-- AWS IoT MQTT telemetry 전송 및 HTTP fallback 흐름 구성
-- Room DB 기반 로컬 세션/로그 저장 및 migration 문제 디버깅
-- Community API 연동으로 게시글 조회, 필터, 상세, 삭제, SOH 히스토리 조회 구현
+- Jetpack Compose로 로그인, 배터리 등록·선택, 실시간 진단 대시보드, SOH 결과 및 커뮤니티 화면 구현
+- BatteryManager API로 전압·전류·온도·잔량(SOC)을 수집하고 ViewModel·Repository 계층으로 상태 관리
+- Foreground Service·WorkManager·BootReceiver로 앱이 백그라운드에 있어도 끊기지 않게 진단 유지
+- AWS IoT MQTT 실시간 전송과 네트워크 장애 시 HTTP fallback 전송 흐름 구성
+- Room DB로 진단 세션·로그를 로컬 저장하고 스키마 마이그레이션 이슈 해결
 
 **Tech**  
 `Kotlin`, `Jetpack Compose`, `Android`, `Room`, `Ktor Client`, `MQTT`, `WorkManager`, `Foreground Service`, `REST API`
